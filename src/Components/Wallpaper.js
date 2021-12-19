@@ -112,10 +112,11 @@ class Wallpaper extends Component {
                         </select>
                     </div>
                     <div className="col-12 col-md-7 search-wrapper text-md-start text-center">
-                        <input className="restaurantSearch" type="text" placeholder="Search the Restaurants" onChange={this.onTextChanged}/>
+                        <input className="restaurantSearch" type="text" placeholder="   Search the Restaurants" onChange={this.onTextChanged}/>
                         {
                             this.renderSuggestions()
                         }
+                        
                     </div>  
                 </div>
             </>
